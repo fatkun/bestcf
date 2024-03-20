@@ -16,7 +16,7 @@ gen_result() {
 }
 
 upload() {
-	git add *.txt
+	git add *.txt *.csv
 	git commit -m 'update'
 	git push -u origin main
 }
