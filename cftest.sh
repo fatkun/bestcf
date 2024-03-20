@@ -15,7 +15,12 @@ function gen_result {
 	cat ./result.csv|awk -F',' 'NR>1{print $1":443#CMCC"}' > best.txt
 }
 
+function upload {
+	git add *.txt
+	git commit -m 'update'
+	git push -u origin main
+}
 
 
 gen_result
-
+upload
