@@ -7,7 +7,7 @@ speedtest() {
 		-url 'https://speed.fatkun.cloudns.ch/50m' \
 		-f ./ip.txt \
 		-n 100 \
-		-o $RESULT_PATH
+		-o $RESULT_PATH \
 		-sl 5 -dn 5 -tl 200 
 }
 
@@ -22,5 +22,6 @@ upload() {
 }
 
 
+speedtest
 gen_result
 upload
