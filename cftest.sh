@@ -1,5 +1,6 @@
 #/bin/bash
 RESULT_PATH=./result.csv
+. ~/.bash_profile
 
 speedtest() {
 	#./CloudflareST -allip -sl 5 -dn 10 -tl 1000 -url 'https://cdn.cloudflare.steamstatic.com/steam/apps/256843155/movie_max.mp4'
