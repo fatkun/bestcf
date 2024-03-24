@@ -26,6 +26,7 @@ speedtest() {
 	CloudflareST \
 		-url 'https://speed.fatkun.cloudns.ch/50m' \
 		-f $file \
+		-allip \
 		-tp $port \
 		-n 100 \
 		-o $TMP_RESULT_PATH \
@@ -54,7 +55,8 @@ upload() {
 }
 
 init
-speedtest './input/ip.txt' $PORT "IPA"
-speedtest './input/ip2.txt' $PORT "IPB"
+speedtest './input/ip.txt' $PORT "HK"
+speedtest './input/ip2.txt' $PORT "SG"
+speedtest './input/ip_us.txt' $PORT "US"
 final_release
 upload
