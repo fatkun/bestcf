@@ -53,7 +53,7 @@ upload() {
 }
 
 init
-speedtest './input/ip.txt' $PORT "IP1"
-speedtest './input/ip2.txt' $PORT "IP2"
+speedtest './input/ip.txt' $PORT "IPA"
+speedtest './input/ip2.txt' $PORT "IPB"
 final_release
 upload
