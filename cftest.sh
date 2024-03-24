@@ -47,6 +47,7 @@ final_release() {
 }
 
 upload() {
+  git pull
 	git add *.txt *.csv
 	git commit -m 'update'
 	git push
