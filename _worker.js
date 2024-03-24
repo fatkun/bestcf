@@ -9,7 +9,7 @@ let addresses = [
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/fatkun/bestcf/main/best.txt'
+	'https://raw.githubusercontent.com/fatkun/bestcf/main/output/best.txt'
 	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt' //可参考内容格式 自行搭建。
 ];
 
