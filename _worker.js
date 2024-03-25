@@ -45,6 +45,7 @@ let SUBUpdateTime = 6;
 let total = 99;//PB
 //let timestamp = now;
 let timestamp = 4102329600000;//2099-12-31
+const regex = /^(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}|\[.*\]):?(\d+)?#?(.*)?$/;
 
 async function sendMessage(type, ip, add_data = "") {
 	if ( BotToken !== '' && ChatID !== ''){
@@ -92,7 +93,6 @@ async function getAddressesapi() {
 			} else {
 				lines = text.split('\n');
 			}
-			const regex = /^(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})(:\d+)?(#.*)?$/;
 
 			const apiAddresses = lines.map(line => {
 				const match = line.match(regex);
@@ -100,6 +100,7 @@ async function getAddressesapi() {
 			}).filter(Boolean);
 
 			newAddressesapi = newAddressesapi.concat(apiAddresses);
+			//console.log("newAddressesapi", newAddressesapi);
 		} catch (error) {
 			console.error('获取地址时出错:', error);
 			continue;
@@ -366,25 +367,14 @@ export default {
 				let port = "443";
 				let addressid = address;
 
-				if (address.includes(':') && address.includes('#')) {
-					const parts = address.split(':');
-					address = parts[0];
-					const subParts = parts[1].split('#');
-					port = subParts[0];
-					addressid = subParts[1];
-				} else if (address.includes(':')) {
-					const parts = address.split(':');
-					address = parts[0];
-					port = parts[1];
-				} else if (address.includes('#')) {
-					const parts = address.split('#');
-					address = parts[0];
-					addressid = parts[1];
+				const match = addressid.match(regex);
+				if (!match) {
+					console.log("not match addressid", addressid);
+					return null;
 				}
-
-				if (addressid.includes(':')) {
-					addressid = addressid.split(':')[0];
-				}
+				address = match[1];
+				port = match[2];
+				addressid = match[3];
 
 				if (edgetunnel.trim() === 'cmliu' && RproxyIP.trim() === 'true') {
 					// 将addressid转换为小写
