@@ -12,6 +12,7 @@ MAX_ITEM=5
 init() {
   clean_tmp_file
   rm -f $RESULT_PATH
+  git pull
 }
 
 clean_tmp_file() {
@@ -56,6 +57,7 @@ upload() {
 init
 speedtest './input/ip.txt' $PORT "HK"
 speedtest './input/ip2.txt' $PORT "SG"
-speedtest './input/ip_us.txt' $PORT "US"
+#speedtest './input/ip_us.txt' $PORT "US"
+speedtest './input/ipv6.txt' $PORT "IPV6"
 final_release
 upload
