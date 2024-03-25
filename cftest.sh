@@ -59,10 +59,10 @@ upload() {
 }
 
 init
-speedtest './input/ali.txt' $PORT "ALI"
+speedtest './input/ali.tx`t' $PORT "ALI"
 speedtest './input/ip.txt' $PORT "HK"
 speedtest './input/ip2.txt' $PORT "SG"
 #speedtest './input/ip_us.txt' $PORT "US"
-speedtest './input/ipv6.txt' $PORT "IPV6"
+speedtest './input/ipv6_2.txt' $PORT "IPV6"
 final_release
 upload
