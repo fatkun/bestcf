@@ -40,7 +40,11 @@ speedtest() {
 		echo "no result"
 		return
 	fi
-	cat $TMP_RESULT_PATH|awk -F',' 'NR>1 && $6>5 {print $1":'$port'#'$info'"}'|head -5 >> $TMP_PATH
+	if [ "IPV6" = "$info" ]; then
+	  cat $TMP_RESULT_PATH|awk -F',' 'NR>1 && $6>5 {print [$1]":'$port'#'$info'"}'|head -5 >> $TMP_PATH
+	else
+	  cat $TMP_RESULT_PATH|awk -F',' 'NR>1 && $6>5 {print $1":'$port'#'$info'"}'|head -5 >> $TMP_PATH
+	fi
 }
 
 final_release() {
