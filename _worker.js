@@ -93,19 +93,19 @@ async function getAddressesapi() {
 				lines = text.split('\n');
 			}
 			const regex = /^(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})(:\d+)?(#.*)?$/;
-		
+
 			const apiAddresses = lines.map(line => {
 				const match = line.match(regex);
 				return match ? match[0] : null;
 			}).filter(Boolean);
-		
+
 			newAddressesapi = newAddressesapi.concat(apiAddresses);
 		} catch (error) {
 			console.error('获取地址时出错:', error);
 			continue;
 		}
 	}
-	
+
 	return newAddressesapi;
 }
 
@@ -113,18 +113,18 @@ async function getAddressescsv() {
 	if (!addressescsv || addressescsv.length === 0) {
 		return [];
 	}
-	
+
 	let newAddressescsv = [];
-	
+
 	for (const csvUrl of addressescsv) {
 		try {
 			const response = await fetch(csvUrl);
-		
+
 			if (!response.ok) {
 				console.error('获取CSV地址时出错:', response.status, response.statusText);
 				continue;
 			}
-		
+
 			const text = await response.text();// 使用正确的字符编码解析文本内容
 			let lines;
 			if (text.includes('\r\n')){
@@ -132,31 +132,31 @@ async function getAddressescsv() {
 			} else {
 				lines = text.split('\n');
 			}
-		
+
 			// 检查CSV头部是否包含必需字段
 			const header = lines[0].split(',');
 			const tlsIndex = header.indexOf('TLS');
 			const speedIndex = header.length - 1; // 最后一个字段
-		
+
 			const ipAddressIndex = 0;// IP地址在 CSV 头部的位置
 			const portIndex = 1;// 端口在 CSV 头部的位置
 			const dataCenterIndex = tlsIndex + 1; // 数据中心是 TLS 的后一个字段
-		
+
 			if (tlsIndex === -1) {
 				console.error('CSV文件缺少必需的字段');
 				continue;
 			}
-		
+
 			// 从第二行开始遍历CSV行
 			for (let i = 1; i < lines.length; i++) {
 				const columns = lines[i].split(',');
-		
+
 				// 检查TLS是否为"TRUE"且速度大于DLS
 				if (columns[tlsIndex].toUpperCase() === 'TRUE' && parseFloat(columns[speedIndex]) > DLS) {
 					const ipAddress = columns[ipAddressIndex];
 					const port = columns[portIndex];
 					const dataCenter = columns[dataCenterIndex];
-			
+
 					const formattedAddress = `${ipAddress}:${port}#${dataCenter}`;
 					newAddressescsv.push(formattedAddress);
 				}
@@ -166,7 +166,7 @@ async function getAddressescsv() {
 			continue;
 		}
 	}
-	
+
 	return newAddressescsv;
 }
 
@@ -175,7 +175,7 @@ export default {
 	async fetch (request, env) {
 		mytoken = env.TOKEN || mytoken;
 		BotToken = env.TGTOKEN || BotToken;
-		ChatID = env.TGID || ChatID; 
+		ChatID = env.TGID || ChatID;
 		subconverter = env.SUBAPI || subconverter;
 		subconfig = env.SUBCONFIG || subconfig;
 		const userAgentHeader = request.headers.get('User-Agent');
@@ -201,17 +201,17 @@ export default {
 				const hy2Url = "https://hy2sub.pages.dev";
 				try {
 					const subconverterResponse = await fetch(hy2Url);
-	
+
 					if (!subconverterResponse.ok) {
 						throw new Error(`Error fetching lzUrl: ${subconverterResponse.status} ${subconverterResponse.statusText}`);
 					}
-	
+
 					const base64Text = await subconverterResponse.text();
 					link = atob(base64Text); // 进行 Base64 解码
-	
+
 				} catch (error) {
 					// 错误处理
-				}	
+				}
 			}
 		await sendMessage("#获取订阅", request.headers.get('CF-Connecting-IP'), `UA: ${userAgent}</tg-spoiler>\n域名: ${url.hostname}\n<tg-spoiler>入口: ${url.pathname + url.search}</tg-spoiler>`);
 		} else {
@@ -220,53 +220,53 @@ export default {
 			path = url.searchParams.get('path');
 			edgetunnel = url.searchParams.get('edgetunnel') || edgetunnel;
 			RproxyIP = url.searchParams.get('proxyip') || RproxyIP;
-			
+
 			if (!url.pathname.includes("/sub")) {
 				const responseText = `
 			路径必须包含 "/sub"
 			The path must contain "/sub"
 			مسیر باید شامل "/sub" باشد
-			
+
 			${url.origin}/sub?host=[your host]&uuid=[your uuid]&path=[your path]
-			
-			
-			
-			
-			
-			
-				
+
+
+
+
+
+
+
 				https://github.com/cmliu/WorkerVless2sub
 				`;
-			
+
 				return new Response(responseText, {
 				status: 400,
 				headers: { 'content-type': 'text/plain; charset=utf-8' },
 				});
 			}
-			
+
 			if (!host || !uuid) {
 				const responseText = `
 			缺少必填参数：host 和 uuid
 			Missing required parameters: host and uuid
 			پارامترهای ضروری وارد نشده: هاست و یوآی‌دی
-			
+
 			${url.origin}/sub?host=[your host]&uuid=[your uuid]&path=[your path]
-			
-			
-			
-			
-			
-			
-				
+
+
+
+
+
+
+
 				https://github.com/cmliu/WorkerVless2sub
 				`;
-			
+
 				return new Response(responseText, {
 				status: 400,
 				headers: { 'content-type': 'text/plain; charset=utf-8' },
 				});
 			}
-			
+
 			if (!path || path.trim() === '') {
 				path = '/?ed=2048';
 			} else {
@@ -282,15 +282,15 @@ export default {
 
 			try {
 				const subconverterResponse = await fetch(subconverterUrl);
-				
+
 				if (!subconverterResponse.ok) {
 					throw new Error(`Error fetching subconverterUrl: ${subconverterResponse.status} ${subconverterResponse.statusText}`);
 				}
-				
+
 				const subconverterContent = await subconverterResponse.text();
-				
+
 				return new Response(subconverterContent, {
-					headers: { 
+					headers: {
 						"Content-Disposition": `attachment; filename*=utf-8''${encodeURIComponent(FileName)}; filename=${FileName}`,
 						"content-type": "text/plain; charset=utf-8",
 						"Profile-Update-Interval": `${SUBUpdateTime}`,
@@ -308,15 +308,15 @@ export default {
 
 			try {
 			const subconverterResponse = await fetch(subconverterUrl);
-			
+
 				if (!subconverterResponse.ok) {
 					throw new Error(`Error fetching subconverterUrl: ${subconverterResponse.status} ${subconverterResponse.statusText}`);
 				}
-				
+
 				const subconverterContent = await subconverterResponse.text();
-				
+
 				return new Response(subconverterContent, {
-					headers: { 
+					headers: {
 						"Content-Disposition": `attachment; filename*=utf-8''${encodeURIComponent(FileName)}; filename=${FileName}`,
 						"content-type": "text/plain; charset=utf-8",
 						"Profile-Update-Interval": `${SUBUpdateTime}`,
@@ -333,18 +333,18 @@ export default {
 			if(host.includes('workers.dev') || host.includes('pages.dev')) {
 				if (proxyhostsURL) {
 					try {
-						const response = await fetch(proxyhostsURL); 
-					
+						const response = await fetch(proxyhostsURL);
+
 						if (!response.ok) {
 							console.error('获取地址时出错:', response.status, response.statusText);
 							return; // 如果有错误，直接返回
 						}
-					
+
 						const text = await response.text();
 						const lines = text.split('\n');
 						// 过滤掉空行或只包含空白字符的行
 						const nonEmptyLines = lines.filter(line => line.trim() !== '');
-					
+
 						proxyhosts = proxyhosts.concat(nonEmptyLines);
 					} catch (error) {
 						console.error('获取地址时出错:', error);
@@ -353,19 +353,19 @@ export default {
 				// 使用Set对象去重
 				proxyhosts = [...new Set(proxyhosts)];
 			}
-			
+
 			const newAddressesapi = await getAddressesapi();
 			const newAddressescsv = await getAddressescsv();
 			addresses = addresses.concat(newAddressesapi);
 			addresses = addresses.concat(newAddressescsv);
-			
+
 			// 使用Set对象去重
 			const uniqueAddresses = [...new Set(addresses)];
-			
+
 			const responseBody = uniqueAddresses.map(address => {
 				let port = "443";
 				let addressid = address;
-			
+
 				if (address.includes(':') && address.includes('#')) {
 					const parts = address.split(':');
 					address = parts[0];
@@ -381,17 +381,17 @@ export default {
 					address = parts[0];
 					addressid = parts[1];
 				}
-			
+
 				if (addressid.includes(':')) {
 					addressid = addressid.split(':')[0];
 				}
-				
+
 				if (edgetunnel.trim() === 'cmliu' && RproxyIP.trim() === 'true') {
 					// 将addressid转换为小写
 					let lowerAddressid = addressid.toLowerCase();
 					// 初始化找到的proxyIP为null
 					let foundProxyIP = null;
-				
+
 					// 遍历CMproxyIPs数组查找匹配项
 					for (let item of CMproxyIPs) {
 						if (lowerAddressid.includes(item.type.toLowerCase())) {
@@ -399,7 +399,7 @@ export default {
 							break; // 找到匹配项，跳出循环
 						}
 					}
-				
+
 					if (foundProxyIP) {
 						// 如果找到匹配的proxyIP，赋值给path
 						path = `/proxyIP=${foundProxyIP}`;
@@ -409,7 +409,7 @@ export default {
 						path = `/proxyIP=${randomProxyIP}`;
 					}
 				}
-				
+
 				let 伪装域名 = host ;
 				let 最终路径 = path ;
 				let 节点备注 = EndPS ;
@@ -419,16 +419,16 @@ export default {
 					节点备注 = `${EndPS} 已启用临时域名中转服务，请尽快绑定自定义域！`;
 				}
 				const vlessLink = `vless://${uuid}@${address}:${port}?encryption=none&security=tls&sni=${伪装域名}&fp=random&type=ws&host=${伪装域名}&path=${encodeURIComponent(最终路径)}#${encodeURIComponent(addressid + 节点备注)}`;
-			
+
 				return vlessLink;
 			}).join('\n');
-			
+
 			const combinedContent = responseBody + '\n' + link; // 合并内容
 			const base64Response = btoa(combinedContent); // 重新进行 Base64 编码
 
 
 			const response = new Response(base64Response, {
-				headers: { 
+				headers: {
 					//"Content-Disposition": `attachment; filename*=utf-8''${encodeURIComponent(FileName)}; filename=${FileName}`,
 					"content-type": "text/plain; charset=utf-8",
 					"Profile-Update-Interval": `${SUBUpdateTime}`,
