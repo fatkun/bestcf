@@ -41,7 +41,7 @@ speedtest() {
 		return
 	fi
 	if [ "IPV6" = "$info" ]; then
-	  cat $TMP_RESULT_PATH|awk -F',' 'NR>1 && $6>5 {print [$1]":'$port'#'$info'"}'|head -5 >> $TMP_PATH
+	  cat $TMP_RESULT_PATH|awk -F',' 'NR>1 && $6>5 {print "["$1"]:'$port'#'$info'"}'|head -5 >> $TMP_PATH
 	else
 	  cat $TMP_RESULT_PATH|awk -F',' 'NR>1 && $6>5 {print $1":'$port'#'$info'"}'|head -5 >> $TMP_PATH
 	fi
@@ -59,6 +59,7 @@ upload() {
 }
 
 init
+speedtest './input/ali.txt' $PORT "ALI"
 speedtest './input/ip.txt' $PORT "HK"
 speedtest './input/ip2.txt' $PORT "SG"
 #speedtest './input/ip_us.txt' $PORT "US"
