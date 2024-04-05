@@ -6,7 +6,6 @@ RESULT_PATH=./output/result.csv
 TMP_RESULT_PATH=./output/result.tmp.csv
 TMP_PATH=./output/best.tmp.txt
 FINAL_PATH=./output/best.txt
-PORT=2053
 MAX_ITEM=5
 
 init() {
@@ -22,28 +21,20 @@ clean_tmp_file() {
 
 speedtest() {
   file=$1
-  port=$2
-  info=$3
-	CloudflareST \
-		-url 'https://speed.fatkun.cloudns.ch/50m' \
-		-f $file \
-		-allip \
-		-tp $port \
-		-n 100 \
-		-o $TMP_RESULT_PATH \
-		-sl 5 -dn $MAX_ITEM -tl 300 -tlr 0.2
+  info=$2
+  cfiptest -f $file -url speed.fatkun.cloudns.ch/50m -mins 0 -maxsc 10 -o $TMP_RESULT_PATH
 
 	cat $TMP_RESULT_PATH >> $RESULT_PATH
 
-	count=`cat $TMP_RESULT_PATH|awk -F',' 'NR>1 && $6>5 {print $1}'|wc -l`
+	count=`cat $TMP_RESULT_PATH|awk -F',' 'NR>1{print $1}'|wc -l`
 	if [ "x0" = "x$count" ]; then
 		echo "no result"
 		return
 	fi
 	if [ "IPV6" = "$info" ]; then
-	  cat $TMP_RESULT_PATH|awk -F',' 'NR>1 && $6>5 {print "["$1"]:'$port'#'$info'"}'|head -5 >> $TMP_PATH
+	  cat $TMP_RESULT_PATH|head -5|awk -F ',' 'NR>1{print "["$1"]:"$2"#"$4}' >> $TMP_PATH
 	else
-	  cat $TMP_RESULT_PATH|awk -F',' 'NR>1 && $6>5 {print $1":'$port'#'$info'"}'|head -5 >> $TMP_PATH
+	  cat $TMP_RESULT_PATH|head -5|awk -F ',' 'NR>1{print $1":"$2"#"$4}' >> $TMP_PATH
 	fi
 }
 
@@ -59,10 +50,6 @@ upload() {
 }
 
 init
-speedtest './input/ali.txt' $PORT "ALI"
-speedtest './input/ip.txt' $PORT "HK"
-speedtest './input/ip2.txt' $PORT "SG"
-#speedtest './input/ip_us.txt' $PORT "US"
-speedtest './input/ipv6_2.txt' $PORT "IPV6"
+speedtest './input2/ali.txt' "ALI"
 final_release
 upload
