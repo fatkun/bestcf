@@ -22,7 +22,10 @@ clean_tmp_file() {
 speedtest() {
   file=$1
   info=$2
-  cfiptest -f $file -url speed.fatkun.cloudns.ch/50m -mins 5 -maxsc 10 -o $TMP_RESULT_PATH
+  # st 测速线程
+  # cfiptest -f xxx -st 0
+  # cat ali.txt|awk -F ',' '!a[$1]++{print}'
+  cfiptest -f $file -url speed.fatkun.cloudns.ch/50m -mins 5 -maxsc 10 -st 1 -o $TMP_RESULT_PATH
 
 	cat $TMP_RESULT_PATH >> $RESULT_PATH
 
@@ -32,9 +35,9 @@ speedtest() {
 		return
 	fi
 	if [ "IPV6" = "$info" ]; then
-	  cat $TMP_RESULT_PATH|head -5|awk -F ',' 'NR>1{print "["$1"]:"$2"#"$4}' >> $TMP_PATH
+	  cat $TMP_RESULT_PATH|awk -F ',' 'NR>1{print "["$1"]:"$2"#"$4}'|head -5 >> $TMP_PATH
 	else
-	  cat $TMP_RESULT_PATH|head -5|awk -F ',' 'NR>1{print $1":"$2"#"$4}' >> $TMP_PATH
+	  cat $TMP_RESULT_PATH|awk -F ',' 'NR>1{print $1":"$2"#"$4}'|head -5 >> $TMP_PATH
 	fi
 }
 
