@@ -22,7 +22,7 @@ clean_tmp_file() {
 speedtest() {
   file=$1
   info=$2
-  cfiptest -f $file -url speed.fatkun.cloudns.ch/50m -mins 0 -maxsc 10 -o $TMP_RESULT_PATH
+  cfiptest -f $file -url speed.fatkun.cloudns.ch/50m -mins 5 -maxsc 10 -o $TMP_RESULT_PATH
 
 	cat $TMP_RESULT_PATH >> $RESULT_PATH
 
