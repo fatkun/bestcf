@@ -1,10 +1,11 @@
 IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-8.218.127.249,2087,true,HKG,Asia Pacific,Hong Kong,21,10.32
-47.245.57.109,2083,true,NRT,Asia Pacific,Tokyo,94,9.25
-47.76.180.109,443,true,SJC,North America,San Jose,22,8.22
-8.209.255.195,2083,true,HKG,Asia Pacific,Hong Kong,160,7.98
-8.209.222.232,2096,true,HKG,Asia Pacific,Hong Kong,157,7.80
-8.217.147.230,2087,true,HKG,Asia Pacific,Hong Kong,22,6.74
-47.245.56.207,8443,true,NRT,Asia Pacific,Tokyo,94,6.07
-47.243.161.235,2083,true,HKG,Asia Pacific,Hong Kong,22,5.34
-8.222.180.86,2053,true,SIN,Asia Pacific,Singapore,62,5.33
+47.76.49.246,2096,true,HKG,Asia Pacific,Hong Kong,54,10.79
+8.217.145.40,2087,true,HKG,Asia Pacific,Hong Kong,53,10.77
+47.76.32.108,2087,true,HKG,Asia Pacific,Hong Kong,55,10.71
+8.218.127.249,2087,true,HKG,Asia Pacific,Hong Kong,51,10.57
+47.76.37.57,2083,true,HKG,Asia Pacific,Hong Kong,63,10.33
+8.222.240.47,2087,true,SIN,Asia Pacific,Singapore,65,10.31
+8.222.144.219,2083,true,SIN,Asia Pacific,Singapore,62,10.29
+8.222.209.223,2096,true,SIN,Asia Pacific,Singapore,68,10.19
+47.243.161.235,2083,true,HKG,Asia Pacific,Hong Kong,57,7.89
+8.210.3.24,2083,true,HKG,Asia Pacific,Hong Kong,64,6.12
