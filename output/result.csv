@@ -1,14 +1,11 @@
 IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-2400:cb00:2049::33f9:7045:cf66:85b2,2083,true,HKG,Asia Pacific,Hong Kong,55,5.90
-2400:cb00:2049::33f9:7045:cf65:5eef,2083,true,HKG,Asia Pacific,Hong Kong,48,5.49
-2400:cb00:2049::33f9:7045:cf64:4c47,2083,true,HKG,Asia Pacific,Hong Kong,97,5.44
-2400:cb00:2049::33f9:7045:cf64:83cb,2083,true,HKG,Asia Pacific,Hong Kong,60,5.33
-2400:cb00:2049::33f9:7045:cf67:5e31,2083,true,HKG,Asia Pacific,Hong Kong,44,5.30
-2400:cb00:2049::33f9:7045:cf66:b86a,2083,true,HKG,Asia Pacific,Hong Kong,89,5.30
-2400:cb00:2049::33f9:7045:cf65:efd5,2083,true,HKG,Asia Pacific,Hong Kong,69,5.24
-2400:cb00:2049::33f9:7045:cf67:fd48,2083,true,HKG,Asia Pacific,Hong Kong,45,5.20
-2400:cb00:2049::33f9:7045:cf65:4af1,2083,true,HKG,Asia Pacific,Hong Kong,38,5.19
-2400:cb00:2049::33f9:7045:cf64:911a,2083,true,HKG,Asia Pacific,Hong Kong,24,5.16
-IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-8.222.147.203,2053,true,SIN,Asia Pacific,Singapore,58,6.18
-8.222.131.102,2083,true,SIN,Asia Pacific,Singapore,59,5.69
+38.59.227.225,53497,true,LHR,Europe,London,175,8.27
+38.59.226.184,34237,true,LHR,Europe,London,187,8.25
+38.59.226.180,34237,true,LHR,Europe,London,173,8.23
+38.59.226.107,30905,true,LHR,Europe,London,175,8.20
+38.59.225.180,34237,true,LHR,Europe,London,184,8.13
+38.59.225.238,34237,true,LHR,Europe,London,186,8.09
+38.59.225.102,34237,true,LHR,Europe,London,176,7.97
+185.217.111.59,32672,true,LHR,Europe,London,186,7.83
+185.148.14.222,1828,true,SJC,North America,San Jose,171,7.15
+185.148.14.99,53106,true,SJC,North America,San Jose,169,6.89
