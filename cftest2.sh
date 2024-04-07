@@ -9,6 +9,7 @@ FINAL_PATH=./output/best.txt
 MAX_ITEM=5
 
 init() {
+  date
   clean_tmp_file
   rm -f $RESULT_PATH
   git pull
@@ -50,10 +51,11 @@ upload() {
 	git add *.txt *.csv
 	git commit -m 'update'
 	git push
+	date
 }
 
 init
+speedtest './input2/AS41378.txt' ""
 speedtest './input2/ipv6.txt' "IPV6"
-speedtest './input2/ali.txt' "ALI"
 final_release
 upload
