@@ -1,20 +1,20 @@
 IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-47.243.27.217,2053,true,HKG,Asia Pacific,Hong Kong,25,10.73
-47.243.179.249,2083,true,HKG,Asia Pacific,Hong Kong,27,10.57
-8.222.191.158,2083,true,SIN,Asia Pacific,Singapore,54,9.08
-8.222.168.24,2053,true,SIN,Asia Pacific,Singapore,59,9.02
-8.222.187.107,2053,true,SIN,Asia Pacific,Singapore,62,8.73
-8.222.164.44,2083,true,SIN,Asia Pacific,Singapore,60,8.19
-8.210.174.156,2087,true,HKG,Asia Pacific,Hong Kong,28,4.00
+47.243.27.217,2053,true,HKG,Asia Pacific,Hong Kong,36,10.20
+47.243.179.249,2083,true,HKG,Asia Pacific,Hong Kong,29,10.11
+8.219.70.117,2053,true,SIN,Asia Pacific,Singapore,76,9.52
+8.219.51.227,2087,true,SIN,Asia Pacific,Singapore,77,9.50
+8.219.56.244,2087,true,SIN,Asia Pacific,Singapore,68,9.49
+8.222.212.255,2053,true,SIN,Asia Pacific,Singapore,73,9.48
+8.222.167.147,8443,true,SIN,Asia Pacific,Singapore,78,9.26
 IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-38.59.225.102,34237,true,LHR,Europe,London,176,8.65
-38.59.226.107,30905,true,LHR,Europe,London,173,8.61
-38.59.226.180,34237,true,LHR,Europe,London,174,8.57
-38.59.227.225,53497,true,LHR,Europe,London,176,8.54
-185.148.14.99,53106,true,SJC,North America,San Jose,170,7.71
+185.148.14.99,53106,true,SJC,North America,San Jose,177,8.41
+38.59.226.184,34237,true,LHR,Europe,London,177,8.23
+38.59.226.107,30905,true,LHR,Europe,London,176,8.06
+185.148.14.222,1828,true,SJC,North America,San Jose,171,8.03
+38.59.242.249,13629,true,SJC,North America,San Jose,166,6.47
 IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-2400:cb00:2049::33f9:7045:cf65:f04a,2083,true,HKG,Asia Pacific,Hong Kong,48,6.94
-2400:cb00:2049::33f9:7045:cf65:b0d6,2083,true,HKG,Asia Pacific,Hong Kong,51,6.66
-2400:cb00:2049::33f9:7045:cf66:8e5c,2083,true,HKG,Asia Pacific,Hong Kong,79,6.45
-2400:cb00:2049::33f9:7045:cf67:9809,2083,true,HKG,Asia Pacific,Hong Kong,52,6.10
-2400:cb00:2049::33f9:7045:cf64:af8e,2083,true,HKG,Asia Pacific,Hong Kong,53,5.85
+2400:cb00:2049::33f9:7045:cf64:d142,2083,true,HKG,Asia Pacific,Hong Kong,29,8.16
+2400:cb00:2049::33f9:7045:cf65:9522,2083,true,HKG,Asia Pacific,Hong Kong,33,8.01
+2400:cb00:2049::33f9:7045:cf64:d136,2083,true,HKG,Asia Pacific,Hong Kong,33,7.99
+2400:cb00:2049::33f9:7045:cf67:cab3,2083,true,HKG,Asia Pacific,Hong Kong,51,7.93
+2400:cb00:2049::33f9:7045:cf66:afc9,2083,true,HKG,Asia Pacific,Hong Kong,29,7.89
