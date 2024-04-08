@@ -1,11 +1,11 @@
 IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-185.148.14.99,53106,true,SJC,North America,San Jose,175,8.78
-38.59.225.102,34237,true,LHR,Europe,London,174,8.74
-38.59.243.240,57747,true,SJC,North America,San Jose,167,8.71
-185.148.15.22,34237,true,SJC,North America,San Jose,180,8.67
-38.59.242.249,13629,true,SJC,North America,San Jose,198,8.67
-37.123.193.35,5238,true,SJC,North America,San Jose,167,8.64
-185.217.111.134,34237,true,LHR,Europe,London,189,8.57
-185.148.15.186,53802,true,SJC,North America,San Jose,178,8.07
-37.123.192.146,33684,true,SJC,North America,San Jose,176,8.02
-37.123.193.49,18008,true,SJC,North America,San Jose,174,7.97
+185.148.14.99,53106,true,SJC,North America,San Jose,171,8.79
+185.148.15.56,58232,true,SJC,North America,San Jose,166,8.77
+38.59.243.240,57747,true,SJC,North America,San Jose,166,8.67
+185.148.14.222,1828,true,SJC,North America,San Jose,176,8.62
+38.59.226.184,34237,true,LHR,Europe,London,186,8.52
+38.59.226.107,30905,true,LHR,Europe,London,177,8.52
+38.59.241.40,34237,true,SJC,North America,San Jose,169,7.96
+38.59.243.0,27128,true,SJC,North America,San Jose,167,7.75
+38.59.249.63,45298,true,SJC,North America,San Jose,165,7.73
+185.148.15.186,53802,true,SJC,North America,San Jose,167,7.62
