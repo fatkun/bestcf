@@ -1,5 +1,0 @@
-IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-154.3.38.122,37610,true,KHH,Asia Pacific,Kaohsiung City,23,14.53
-103.117.102.7,33322,true,NRT,Asia Pacific,Tokyo,92,7.85
-154.21.95.113,33849,true,LAX,North America,Los Angeles,166,7.08
-154.17.26.74,34237,true,LAX,North America,Los Angeles,164,6.94
