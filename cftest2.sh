@@ -25,6 +25,8 @@ speedtest() {
   info=$2
   testc=$3
   outc=$4
+
+  s_start_time=$(date +%s)
   # st 测速线程
   # cfiptest -f xxx -st 0
   # cat ali.txt|awk -F ',' '!a[$1]++{print}'
@@ -60,6 +62,9 @@ speedtest() {
 	  print $1":"$2"#"$4"_'$info'"
 	  }'|head -n "$outc" >> $TMP_PATH
 	fi
+	s_end_time=$(date +%s)
+  s_elapsed_time=$((s_end_time - s_start_time))
+  echo "耗时: $s_elapsed_time seconds"
 }
 
 final_release() {
@@ -74,9 +79,14 @@ upload() {
 	date
 }
 
+start_time=$(date +%s)
 init
 speedtest './input2/ali.txt' "阿里" 7 4
 speedtest './input2/AS41378.txt' "Kirino" 5 3
 speedtest './input2/ipv6.txt' "IPV6" 5 3
 final_release
 upload
+end_time=$(date +%s)
+elapsed_time=$((end_time - start_time))
+echo "耗时: $elapsed_time seconds" >> $RESULT_PATH
+echo "耗时: $elapsed_time seconds"
