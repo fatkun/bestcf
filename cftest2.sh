@@ -65,6 +65,7 @@ speedtest() {
 	s_end_time=$(date +%s)
   s_elapsed_time=$((s_end_time - s_start_time))
   echo "耗时: $s_elapsed_time seconds"
+  echo "耗时: $elapsed_time seconds,,,,,,," >> $RESULT_PATH
 }
 
 final_release() {
@@ -84,9 +85,8 @@ init
 speedtest './input2/ali.txt' "阿里" 7 5
 speedtest './input2/AS41378.txt' "Kirino" 5 3
 speedtest './input2/ipv6.txt' "IPV6" 5 3
-end_time=$(date +%s)
-elapsed_time=$((end_time - start_time))
-echo "耗时: $elapsed_time seconds" >> $RESULT_PATH
-echo "耗时: $elapsed_time seconds"
 final_release
 upload
+end_time=$(date +%s)
+elapsed_time=$((end_time - start_time))
+echo "耗时: $elapsed_time seconds"
