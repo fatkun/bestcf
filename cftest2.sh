@@ -48,7 +48,7 @@ speedtest() {
     mapping["LHR"] = "BG";
 
     for (key in mapping) {if ($4 == key) {$4 = mapping[key];break;}}
-	  print "["$1"]:"$2"#"$4"_'$info'";
+	  print "["$1"]:"$2"#"$4" '$info'";
 	  }'|head -n "$outc" >> $TMP_PATH
 	else
 	  cat $TMP_RESULT_PATH|awk -F ',' 'NR>1{
@@ -59,7 +59,7 @@ speedtest() {
     mapping["LHR"] = "BG";
 
     for (key in mapping) {if ($4 == key) {$4 = mapping[key];break;}}
-	  print $1":"$2"#"$4"_'$info'"
+	  print $1":"$2"#"$4" '$info'"
 	  }'|head -n "$outc" >> $TMP_PATH
 	fi
 	s_end_time=$(date +%s)
@@ -81,12 +81,12 @@ upload() {
 
 start_time=$(date +%s)
 init
-speedtest './input2/ali.txt' "阿里" 7 4
+speedtest './input2/ali.txt' "阿里" 7 5
 speedtest './input2/AS41378.txt' "Kirino" 5 3
 speedtest './input2/ipv6.txt' "IPV6" 5 3
-final_release
-upload
 end_time=$(date +%s)
 elapsed_time=$((end_time - start_time))
 echo "耗时: $elapsed_time seconds" >> $RESULT_PATH
 echo "耗时: $elapsed_time seconds"
+final_release
+upload
