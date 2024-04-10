@@ -1,21 +1,22 @@
 IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-8.222.244.192,8443,true,SIN,Asia Pacific,Singapore,54,8.86
-8.222.168.234,2087,true,SIN,Asia Pacific,Singapore,54,8.71
-8.219.8.244,2053,true,SIN,Asia Pacific,Singapore,59,8.49
-8.222.160.61,2053,true,SIN,Asia Pacific,Singapore,58,8.29
-8.222.129.245,2053,true,SIN,Asia Pacific,Singapore,54,7.91
-8.222.219.34,2087,true,SIN,Asia Pacific,Singapore,56,7.81
-8.222.130.137,2053,true,SIN,Asia Pacific,Singapore,74,6.89
-耗时: 45 seconds,,,,,,,
+8.222.137.166,2053,true,SIN,Asia Pacific,Singapore,57,10.44
+8.219.58.64,2053,true,SIN,Asia Pacific,Singapore,57,10.42
+8.222.224.163,2053,true,SIN,Asia Pacific,Singapore,55,10.38
+8.222.212.255,2053,true,SIN,Asia Pacific,Singapore,62,10.37
+8.222.187.107,2053,true,SIN,Asia Pacific,Singapore,59,10.27
+47.236.144.196,2053,true,SIN,Asia Pacific,Singapore,118,9.39
+47.236.87.206,2053,true,SIN,Asia Pacific,Singapore,130,9.30
+耗时: 38 seconds,,,,,,,
 IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-38.59.227.225,53497,true,LHR,Europe,London,206,7.71
-38.59.226.184,34237,true,LHR,Europe,London,213,7.71
-38.59.225.180,34237,true,LHR,Europe,London,201,7.62
-38.59.226.180,34237,true,LHR,Europe,London,220,7.30
-38.59.226.107,30905,true,LHR,Europe,London,225,7.25
-耗时: 29 seconds,,,,,,,
+38.59.242.249,13629,true,SJC,North America,San Jose,169,8.79
+38.59.242.84,34237,true,SJC,North America,San Jose,166,8.64
+37.123.193.101,17473,true,SJC,North America,San Jose,167,8.61
+38.59.243.0,27128,true,SJC,North America,San Jose,169,8.16
+37.123.193.52,13307,true,SJC,North America,San Jose,172,8.06
+耗时: 27 seconds,,,,,,,
 IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-2400:cb00:2049::33f9:7045:cf64:f3dd,2083,true,HKG,Asia Pacific,Hong Kong,20,4.26
-2400:cb00:2049::33f9:7045:cf65:f274,2083,true,HKG,Asia Pacific,Hong Kong,25,4.13
-耗时: 2111 seconds,,,,,,,
-耗时: 2185 seconds,,,,,,,
+2400:cb00:2049::33f9:7045:cf66:5762,2083,true,HKG,Asia Pacific,Hong Kong,72,10.28
+2400:cb00:2049::33f9:7045:cf65:6ef5,2083,true,HKG,Asia Pacific,Hong Kong,105,8.44
+2400:cb00:2049::33f9:7045:cf65:71a7,2083,true,HKG,Asia Pacific,Hong Kong,79,8.37
+耗时: 19 seconds,,,,,,,
+耗时: 84 seconds,,,,,,,
