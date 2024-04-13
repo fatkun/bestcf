@@ -1,22 +1,17 @@
 IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-47.243.179.249,2083,true,HKG,Asia Pacific,Hong Kong,42,10.32
-8.222.168.24,2053,true,SIN,Asia Pacific,Singapore,58,7.44
-8.222.237.131,2083,true,SIN,Asia Pacific,Singapore,61,7.34
-8.222.130.219,2053,true,SIN,Asia Pacific,Singapore,86,7.23
-8.222.187.107,2053,true,SIN,Asia Pacific,Singapore,78,7.13
-8.222.154.50,2083,true,SIN,Asia Pacific,Singapore,60,6.54
-8.222.191.158,2083,true,SIN,Asia Pacific,Singapore,102,6.44
-耗时: 61 seconds,,,,,,,
+47.243.179.249,2083,true,HKG,Asia Pacific,Hong Kong,22,10.19
+8.219.8.244,2053,true,SIN,Asia Pacific,Singapore,55,7.62
+8.222.136.196,2087,true,SIN,Asia Pacific,Singapore,58,7.52
+8.219.54.152,2053,true,SIN,Asia Pacific,Singapore,59,7.43
+8.222.137.166,2053,true,SIN,Asia Pacific,Singapore,65,7.04
+8.222.244.192,8443,true,SIN,Asia Pacific,Singapore,90,6.64
+8.219.58.64,2053,true,SIN,Asia Pacific,Singapore,74,6.52
+耗时: 42 seconds,,,,,,,
 IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-38.59.226.180,34237,true,LHR,Europe,London,187,8.20
-37.123.193.163,1234,true,SJC,North America,San Jose,171,8.19
-37.123.193.35,5238,true,SJC,North America,San Jose,166,8.16
-38.59.242.84,34237,true,SJC,North America,San Jose,163,8.14
-37.123.193.101,17473,true,SJC,North America,San Jose,168,7.90
-耗时: 34 seconds,,,,,,,
+185.212.62.119,443,true,LHR,Europe,London,220,7.48
+38.59.226.180,34237,true,LHR,Europe,London,239,7.32
+38.59.243.240,57747,true,SJC,North America,San Jose,166,6.26
+37.123.193.176,45773,true,SJC,North America,San Jose,221,6.19
+耗时: 51 seconds,,,,,,,
 IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-2400:cb00:2049::33f9:7045:cf65:8e08,2083,true,HKG,Asia Pacific,Hong Kong,20,3.32
-2400:cb00:2049::33f9:7045:cf67:aaa7,2083,true,HKG,Asia Pacific,Hong Kong,20,3.00
-2400:cb00:2049::33f9:7045:cf67:5f12,2083,true,HKG,Asia Pacific,Hong Kong,19,2.04
-耗时: 1045 seconds,,,,,,,
-耗时: 1140 seconds,,,,,,,
+耗时: 2067 seconds,,,,,,,
