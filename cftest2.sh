@@ -42,6 +42,7 @@ speedtest() {
 	fi
 
   cat $TMP_RESULT_PATH|awk -F ',' 'NR>1{
+    mapping["NRT"] = "JP";
     mapping["HKG"] = "HK";
     mapping["LAX"] = "US";
     mapping["NYC"] = "US";
@@ -78,11 +79,13 @@ upload() {
 
 start_time=$(date +%s)
 init
+speedtest '../input/as209242.txt' "官方优选" 3 3 4
 speedtest '../input/ali.txt' "阿里" 5 5 4
 speedtest '../input/AS41378.txt' "Kirino" 3 3 4
 speedtest '../input/3258.txt' "xTom" 3 3 4
 speedtest '../input/as932.txt' "XNNET" 3 3 4
 speedtest '../input/as967.txt' "VMISS" 3 3 4
+
 #speedtest './input2/ipv6.txt' "IPV6" 3 2 2
 final_release
 upload
