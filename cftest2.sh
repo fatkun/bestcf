@@ -82,7 +82,7 @@ init
 speedtest '../input/as209242.txt' "官方优选" 3 3 4
 speedtest '../input/ali.txt' "阿里" 5 5 4
 speedtest '../input/AS41378.txt' "Kirino" 3 3 4
-speedtest '../input/3258.txt' "xTom" 3 3 4
+speedtest '../input/as3258.txt' "xTom" 3 3 4
 speedtest '../input/as932.txt' "XNNET" 3 3 4
 speedtest '../input/as967.txt' "VMISS" 3 3 4
 
