@@ -28,9 +28,8 @@ speedtest() {
 
   s_start_time=$(date +%s)
   # st 测速线程
-  # cfiptest -f xxx -st 0
-  # cat ali.txt|awk -F ',' '!a[$1]++{print}'
-  cfiptest -f $file -s -mins $min_speed -maxdc 1000 -maxsc $testc -st 1 -o $TMP_RESULT_PATH
+  echo "START ------> "$info
+  cfiptest -f $file -s -mins $min_speed -maxdc 300 -maxsc $testc -st 1 -o $TMP_RESULT_PATH
 
 	cat $TMP_RESULT_PATH >> $RESULT_PATH
 
@@ -78,6 +77,7 @@ upload() {
 
 start_time=$(date +%s)
 init
+speedtest '/root/bin/gcf/ip.txt' "汇聚" 5 5 4
 speedtest '../input/as209242.txt' "官方优选" 3 3 4
 speedtest '../input/ali.txt' "阿里" 5 5 4
 speedtest '../input/AS41378.txt' "Kirino" 3 3 4
