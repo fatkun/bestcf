@@ -12,7 +12,6 @@ init() {
   date
   clean_tmp_file
   rm -f $RESULT_PATH
-  git pull
 }
 
 clean_tmp_file() {
