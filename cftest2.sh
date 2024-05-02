@@ -78,7 +78,7 @@ upload() {
 start_time=$(date +%s)
 init
 speedtest '/root/bin/gcf/ip.txt' "汇聚" 5 5 4
-speedtest '../input/as209242.txt' "官方优选" 3 3 4
+#speedtest '../input/as209242.txt' "官方优选" 2 2 4
 speedtest '../input/ali.txt' "阿里" 5 5 4
 speedtest '../input/AS41378.txt' "Kirino" 3 3 4
 speedtest '../input/as3258.txt' "xTom" 3 3 4
