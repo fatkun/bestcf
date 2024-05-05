@@ -25,11 +25,12 @@ speedtest() {
   testc=$3
   outc=$4
   min_speed=$5
+  iata=$6
 
   s_start_time=$(date +%s)
   # st 测速线程
   echo "START ------> "$info
-  cfiptest -f $file -s -mins $min_speed -maxdc 300 -maxsc $testc -st 1 -o $TMP_RESULT_PATH
+  cfiptest -f $file -s -mins $min_speed -maxdc 300 -maxsc $testc -iata=$iata -st 1 -o $TMP_RESULT_PATH
 
 	cat $TMP_RESULT_PATH >> $RESULT_PATH
 
@@ -41,12 +42,17 @@ speedtest() {
 
   cat $TMP_RESULT_PATH|awk -F ',' 'NR>1{
     mapping["NRT"] = "JP";
+    mapping["FUK"] = "JP";
+    mapping["KIX"] = "JP";
     mapping["HKG"] = "HK";
     mapping["LAX"] = "US";
     mapping["NYC"] = "US";
     mapping["SJC"] = "US";
     mapping["SIN"] = "SG";
     mapping["LHR"] = "BG";
+    mapping["TPE"] = "TW";
+    mapping["KHH"] = "TW";
+    mapping["ICN"] = "KR";
 
     for (key in mapping) {if ($4 == key) {$4 = mapping[key];break;}}
     if (index($1, ":") > 0) {$1="["$1"]";}
@@ -77,7 +83,10 @@ upload() {
 
 start_time=$(date +%s)
 init
-speedtest '/root/bin/gcf/ip.txt' "汇聚" 5 5 4
+speedtest '/root/bin/gcf/ip.txt' "汇聚" 3 3 4 "SIN"
+speedtest '/root/bin/gcf/ip.txt' "汇聚" 3 3 4 "HKG"
+speedtest '/root/bin/gcf/ip.txt' "汇聚" 3 3 4 "ICN"
+speedtest '/root/bin/gcf/ip.txt' "汇聚" 3 3 4 "NRT,FUK,KIX"
 #speedtest '../input/as209242.txt' "官方优选" 2 2 4
 speedtest '../input/ali.txt' "阿里" 5 5 4
 speedtest '../input/AS41378.txt' "Kirino" 3 3 4
