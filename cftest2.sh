@@ -83,16 +83,18 @@ upload() {
 
 start_time=$(date +%s)
 init
+speedtest '../input/ali.txt' "阿里" 5 5 4 ""
+speedtest '/root/bin/gcf/ip.txt' "汇聚" 3 3 4 "TPE,KHH"
+speedtest '/root/bin/gcf/ip.txt' "汇聚" 3 3 4 "SJC,NYC,LAX"
 speedtest '/root/bin/gcf/ip.txt' "汇聚" 3 3 4 "SIN"
 speedtest '/root/bin/gcf/ip.txt' "汇聚" 3 3 4 "HKG"
 speedtest '/root/bin/gcf/ip.txt' "汇聚" 3 3 4 "ICN"
 speedtest '/root/bin/gcf/ip.txt' "汇聚" 3 3 4 "NRT,FUK,KIX"
 #speedtest '../input/as209242.txt' "官方优选" 2 2 4
-speedtest '../input/ali.txt' "阿里" 5 5 4
-speedtest '../input/AS41378.txt' "Kirino" 3 3 4
-speedtest '../input/as3258.txt' "xTom" 3 3 4
-speedtest '../input/as932.txt' "XNNET" 3 3 4
-speedtest '../input/as967.txt' "VMISS" 3 3 4
+speedtest '../input/AS41378.txt' "Kirino" 3 3 4 ""
+speedtest '../input/as3258.txt' "xTom" 3 3 4 ""
+speedtest '../input/as932.txt' "XNNET" 3 3 4 ""
+speedtest '../input/as967.txt' "VMISS" 3 3 4 ""
 
 #speedtest './input2/ipv6.txt' "IPV6" 3 2 2
 final_release
