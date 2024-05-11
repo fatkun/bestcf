@@ -32,7 +32,12 @@ speedtest() {
   echo "START ------> "$info
   cfiptest -f $file -s -mins $min_speed -maxdc 300 -maxsc $testc -iata=$iata -st 1 -o $TMP_RESULT_PATH
 
-	cat $TMP_RESULT_PATH >> $RESULT_PATH
+  cat $TMP_RESULT_PATH >> $RESULT_PATH
+
+  s_end_time=$(date +%s)
+  s_elapsed_time=$((s_end_time - s_start_time))
+  echo "$info 耗时: $s_elapsed_time seconds"
+  echo "$info 耗时: $s_elapsed_time seconds,,,,,,," >> $RESULT_PATH
 
 	count=`cat $TMP_RESULT_PATH|awk -F',' 'NR>1{print $1}'|wc -l`
 	if [ "x0" = "x$count" ]; then
@@ -58,11 +63,6 @@ speedtest() {
     if (index($1, ":") > 0) {$1="["$1"]";}
 	  print $1":"$2"#"$4" '$info'"
 	  }'|head -n "$outc" >> $TMP_PATH
-
-	s_end_time=$(date +%s)
-  s_elapsed_time=$((s_end_time - s_start_time))
-  echo "耗时: $s_elapsed_time seconds"
-  echo "耗时: $s_elapsed_time seconds,,,,,,," >> $RESULT_PATH
 }
 
 final_release() {
@@ -83,15 +83,15 @@ upload() {
 
 start_time=$(date +%s)
 init
+speedtest '/root/bin/gcf/ip.txt' "汇聚" 4 3 4 "TPE,KHH" # TW
+speedtest '/root/bin/gcf/ip.txt' "汇聚" 4 3 4 "SJC,NYC,LAX" # US
+speedtest '/root/bin/gcf/ip.txt' "汇聚" 4 3 4 "SIN"
+speedtest '/root/bin/gcf/ip.txt' "汇聚" 4 3 4 "HKG" 
+speedtest '/root/bin/gcf/ip.txt' "汇聚" 4 3 4 "ICN" #KR
+speedtest '/root/bin/gcf/ip.txt' "汇聚" 4 3 4 "NRT,FUK,KIX" # JP
 speedtest '../input/ali.txt' "阿里" 5 5 4 ""
-speedtest '/root/bin/gcf/ip.txt' "汇聚" 3 3 4 "TPE,KHH"
-speedtest '/root/bin/gcf/ip.txt' "汇聚" 3 3 4 "SJC,NYC,LAX"
-speedtest '/root/bin/gcf/ip.txt' "汇聚" 3 3 4 "SIN"
-speedtest '/root/bin/gcf/ip.txt' "汇聚" 3 3 4 "HKG"
-speedtest '/root/bin/gcf/ip.txt' "汇聚" 3 3 4 "ICN"
-speedtest '/root/bin/gcf/ip.txt' "汇聚" 3 3 4 "NRT,FUK,KIX"
-#speedtest '../input/as209242.txt' "官方优选" 2 2 4
-speedtest '../input/AS41378.txt' "Kirino" 3 3 4 ""
+speedtest '../input/as209242.txt' "官方优选" 3 2 4 ""
+#speedtest '../input/AS41378.txt' "Kirino" 3 3 4 ""
 speedtest '../input/as3258.txt' "xTom" 3 3 4 ""
 speedtest '../input/as932.txt' "XNNET" 3 3 4 ""
 speedtest '../input/as967.txt' "VMISS" 3 3 4 ""
