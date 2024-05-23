@@ -1,66 +1,65 @@
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-172.64.155.165,443,true,HKG,Asia Pacific,Hong Kong,25,10.84
-172.64.147.98,443,true,HKG,Asia Pacific,Hong Kong,23,10.83
-172.64.147.136,443,true,HKG,Asia Pacific,Hong Kong,25,10.80
-172.64.147.1,443,true,HKG,Asia Pacific,Hong Kong,22,10.75
-172.64.147.115,443,true,HKG,Asia Pacific,Hong Kong,27,10.74
-CF 耗时: 27 seconds,,,,,,,
+172.64.155.158,443,true,HKG,Asia Pacific,Hong Kong,35,10.69
+172.64.228.1,443,true,HKG,Asia Pacific,Hong Kong,35,10.33
+172.64.228.194,443,true,HKG,Asia Pacific,Hong Kong,34,10.06
+172.64.228.240,443,true,HKG,Asia Pacific,Hong Kong,30,8.99
+172.64.155.235,443,true,HKG,Asia Pacific,Hong Kong,31,8.54
+CF 耗时: 30 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-172.64.155.165,443,true,HKG,Asia Pacific,Hong Kong,25,10.84
-172.64.147.98,443,true,HKG,Asia Pacific,Hong Kong,23,10.83
-172.64.147.136,443,true,HKG,Asia Pacific,Hong Kong,25,10.80
-172.64.147.1,443,true,HKG,Asia Pacific,Hong Kong,22,10.75
-172.64.147.115,443,true,HKG,Asia Pacific,Hong Kong,27,10.74
+172.64.155.158,443,true,HKG,Asia Pacific,Hong Kong,35,10.69
+172.64.228.1,443,true,HKG,Asia Pacific,Hong Kong,35,10.33
+172.64.228.194,443,true,HKG,Asia Pacific,Hong Kong,34,10.06
+172.64.228.240,443,true,HKG,Asia Pacific,Hong Kong,30,8.99
+172.64.155.235,443,true,HKG,Asia Pacific,Hong Kong,31,8.54
 阿里 耗时: 0 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-193.32.151.57,35509,true,NRT,Asia Pacific,Tokyo,69,9.78
-193.32.150.96,37742,true,NRT,Asia Pacific,Tokyo,69,9.70
-149.62.44.233,41165,true,NRT,Asia Pacific,Tokyo,69,9.29
+103.201.130.137,55556,true,NRT,Asia Pacific,Tokyo,66,9.52
+103.201.130.219,27999,true,NRT,Asia Pacific,Tokyo,65,9.21
+193.32.150.12,38080,true,NRT,Asia Pacific,Tokyo,67,8.37
 xTom 耗时: 17 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-91.208.73.50,58923,true,HKG,Asia Pacific,Hong Kong,44,10.71
-206.237.3.4,34237,true,HKG,Asia Pacific,Hong Kong,45,10.68
-149.104.22.32,48662,true,HKG,Asia Pacific,Hong Kong,44,10.57
-XNNET 耗时: 17 seconds,,,,,,,
+206.237.6.234,16212,true,HKG,Asia Pacific,Hong Kong,29,10.55
+149.104.22.180,8081,true,HKG,Asia Pacific,Hong Kong,29,10.35
+38.147.190.237,13433,true,HKG,Asia Pacific,Hong Kong,29,8.63
+XNNET 耗时: 16 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-38.207.161.202,443,true,HKG,Asia Pacific,Hong Kong,20,10.77
-38.207.172.221,8443,true,HKG,Asia Pacific,Hong Kong,20,9.99
-38.207.175.197,8443,true,HKG,Asia Pacific,Hong Kong,19,8.46
-VMISS 耗时: 22 seconds,,,,,,,
+38.207.161.202,443,true,HKG,Asia Pacific,Hong Kong,22,10.66
+38.207.172.221,8443,true,HKG,Asia Pacific,Hong Kong,23,9.80
+38.207.175.197,8443,true,HKG,Asia Pacific,Hong Kong,23,9.14
+VMISS 耗时: 29 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-118.163.128.81,13688,true,TPE,Asia Pacific,Taipei,62,10.56
-118.163.128.81,17333,true,KHH,Asia Pacific,Kaohsiung City,46,10.46
-35.201.203.106,443,true,TPE,Asia Pacific,Taipei,217,8.60
-34.81.35.248,443,true,TPE,Asia Pacific,Taipei,53,7.40
-汇聚 耗时: 48 seconds,,,,,,,
+118.163.128.81,17333,true,KHH,Asia Pacific,Kaohsiung City,49,9.97
+35.201.203.106,443,true,TPE,Asia Pacific,Taipei,224,8.18
+61.220.65.189,26832,true,TPE,Asia Pacific,Taipei,45,4.35
+汇聚 耗时: 38 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-185.238.228.227,443,true,LAX,North America,Los Angeles,178,8.77
-185.176.24.254,443,true,LAX,North America,Los Angeles,176,8.77
-43.153.27.246,4333,true,SJC,North America,San Jose,186,8.31
-146.190.116.221,443,true,SJC,North America,San Jose,185,7.67
+154.197.121.13,8443,true,LAX,North America,Los Angeles,171,8.78
+185.148.107.213,443,true,LAX,North America,Los Angeles,175,8.76
+38.47.119.110,44403,true,LAX,North America,Los Angeles,165,7.99
+154.17.2.103,11240,true,LAX,North America,Los Angeles,165,6.76
 汇聚 耗时: 34 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-138.2.85.8,22604,true,SIN,Asia Pacific,Singapore,99,10.17
-47.236.93.176,8443,true,SIN,Asia Pacific,Singapore,146,9.52
-47.236.254.120,2096,true,SIN,Asia Pacific,Singapore,138,9.43
-47.236.180.51,2053,true,SIN,Asia Pacific,Singapore,143,9.18
+47.236.254.120,2096,true,SIN,Asia Pacific,Singapore,102,9.39
+47.236.93.176,2096,true,SIN,Asia Pacific,Singapore,112,9.34
+47.236.10.100,8443,true,SIN,Asia Pacific,Singapore,104,9.02
+168.138.178.6,19990,true,SIN,Asia Pacific,Singapore,68,5.69
 汇聚 耗时: 34 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-47.76.94.15,8443,true,HKG,Asia Pacific,Hong Kong,26,10.86
-47.76.146.1,2083,true,HKG,Asia Pacific,Hong Kong,20,10.85
-47.243.204.32,8443,true,HKG,Asia Pacific,Hong Kong,30,10.81
-150.230.107.234,53780,true,HKG,Asia Pacific,Hong Kong,86,9.11
-汇聚 耗时: 50 seconds,,,,,,,
+47.75.101.0,3443,true,HKG,Asia Pacific,Hong Kong,15,10.78
+47.76.77.103,2087,true,HKG,Asia Pacific,Hong Kong,30,10.75
+20.247.124.228,55283,true,HKG,Asia Pacific,Hong Kong,85,9.37
+47.76.94.15,2083,true,HKG,Asia Pacific,Hong Kong,53,6.33
+汇聚 耗时: 61 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-52.78.235.190,8443,true,ICN,Asia Pacific,Seoul,61,9.95
-146.56.44.226,55555,true,ICN,Asia Pacific,Seoul,65,9.72
-146.56.130.130,14850,true,ICN,Asia Pacific,Seoul,65,9.32
-222.103.130.244,38932,true,ICN,Asia Pacific,Seoul,119,6.92
-汇聚 耗时: 36 seconds,,,,,,,
+146.56.42.31,48652,true,ICN,Asia Pacific,Seoul,89,9.84
+146.56.141.168,47590,true,ICN,Asia Pacific,Seoul,115,9.65
+52.78.235.190,2053,true,ICN,Asia Pacific,Seoul,64,9.47
+222.119.24.214,32769,true,ICN,Asia Pacific,Seoul,196,5.53
+汇聚 耗时: 38 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-130.162.134.215,2052,true,NRT,Asia Pacific,Tokyo,91,9.01
-59.191.137.228,32414,true,NRT,Asia Pacific,Tokyo,79,8.80
-138.2.10.249,34237,true,NRT,Asia Pacific,Tokyo,96,5.27
-152.69.200.206,443,true,KIX,Asia Pacific,Osaka,112,5.09
-汇聚 耗时: 34 seconds,,,,,,,
-耗时: 320 seconds,,,,,,,
+193.122.103.10,45171,true,NRT,Asia Pacific,Tokyo,73,9.40
+103.20.199.101,30860,true,NRT,Asia Pacific,Tokyo,153,7.87
+45.66.128.148,15280,true,NRT,Asia Pacific,Tokyo,185,6.61
+176.119.149.241,3000,true,NRT,Asia Pacific,Tokyo,190,6.56
+汇聚 耗时: 39 seconds,,,,,,,
+耗时: 336 seconds,,,,,,,
