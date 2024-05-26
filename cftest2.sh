@@ -85,19 +85,19 @@ upload() {
 
 start_time=$(date +%s)
 init
-speedtest '../input/cf.txt' "CF" 5 5 4 "" " -dtt 1 "
+#speedtest '../input/cf.txt' "CF" 5 5 4 "" " -dtt 1 "
 #speedtest '../input/ali.txt' "阿里" 5 5 4 "" " -dtt 1 "
-speedtest '../input/45102.txt' "阿里" 5 5 4 "" " -dtt 1 "
+speedtest '../new/45102.txt' "阿里" 5 5 4 "" " -dtt 1 "
 #speedtest '../input/as209242.txt' "官方优选" 3 2 4 """ -dtt 1 "
 #speedtest '../input/as3258.txt' "xTom" 3 3 4 """ -dtt 1 "
 speedtest '../new/3258.txt' "xTom" 3 3 4 """ -dtt 1 "
 #speedtest '../input/as932.txt' "XNNET" 3 3 4 """ -dtt 1 "
 speedtest '../new/932.txt' "XNNET" 3 3 4 """ -dtt 1 "
 speedtest '../input/as967.txt' "VMISS" 3 3 4 """ -dtt 1 "
-speedtest '/root/bin/gcf/ip.txt' "汇聚" 4 3 4 "TPE,KHH" # TW
+#speedtest '/root/bin/gcf/ip.txt' "汇聚" 4 3 4 "TPE,KHH" # TW
 speedtest '/root/bin/gcf/ip.txt' "汇聚" 4 3 4 "SJC,NYC,LAX" # US
 speedtest '/root/bin/gcf/ip.txt' "汇聚" 4 3 4 "SIN"
-speedtest '/root/bin/gcf/ip.txt' "汇聚" 4 3 4 "HKG" 
+#speedtest '/root/bin/gcf/ip.txt' "汇聚" 4 3 4 "HKG" 
 speedtest '/root/bin/gcf/ip.txt' "汇聚" 4 3 4 "ICN" #KR
 speedtest '/root/bin/gcf/ip.txt' "汇聚" 4 3 4 "NRT,FUK,KIX" # JP
 #speedtest '../input/AS41378.txt' "Kirino" 3 3 4 ""
