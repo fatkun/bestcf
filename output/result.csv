@@ -1,45 +1,44 @@
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-47.76.159.146,2096,true,HKG,Asia Pacific,Hong Kong,39,10.45
-47.243.120.239,2087,true,HKG,Asia Pacific,Hong Kong,65,10.38
-47.76.146.1,2087,true,HKG,Asia Pacific,Hong Kong,17,10.34
-47.76.159.146,2087,true,HKG,Asia Pacific,Hong Kong,43,9.16
-8.222.193.65,2087,true,SIN,Asia Pacific,Singapore,53,8.58
-阿里 耗时: 58 seconds,,,,,,,
+8.210.203.7,2087,true,HKG,Asia Pacific,Hong Kong,24,10.85
+8.210.174.156,8443,true,HKG,Asia Pacific,Hong Kong,23,10.85
+47.76.178.146,2096,true,HKG,Asia Pacific,Hong Kong,24,10.82
+8.210.107.246,2096,true,HKG,Asia Pacific,Hong Kong,22,10.73
+8.219.99.169,2083,true,SIN,Asia Pacific,Singapore,54,10.34
+阿里 耗时: 42 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-193.32.149.72,17564,true,NRT,Asia Pacific,Tokyo,67,9.76
-45.143.234.199,25811,true,NRT,Asia Pacific,Tokyo,67,9.70
-103.201.130.137,55556,true,NRT,Asia Pacific,Tokyo,67,9.42
-xTom 耗时: 17 seconds,,,,,,,
+149.62.44.233,41165,true,NRT,Asia Pacific,Tokyo,70,9.87
+193.32.151.57,35509,true,NRT,Asia Pacific,Tokyo,68,9.85
+193.32.149.72,17564,true,NRT,Asia Pacific,Tokyo,68,9.66
+xTom 耗时: 18 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-206.237.1.59,11563,true,HKG,Asia Pacific,Hong Kong,28,10.23
-38.147.190.237,59508,true,HKG,Asia Pacific,Hong Kong,31,9.78
-38.147.190.237,45351,true,HKG,Asia Pacific,Hong Kong,29,9.24
-XNNET 耗时: 22 seconds,,,,,,,
+206.237.7.18,34237,true,HKG,Asia Pacific,Hong Kong,26,10.73
+206.237.0.221,35690,true,HKG,Asia Pacific,Hong Kong,25,10.71
+206.237.6.234,16212,true,HKG,Asia Pacific,Hong Kong,26,10.69
+XNNET 耗时: 17 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-38.207.161.202,443,true,HKG,Asia Pacific,Hong Kong,18,10.30
-VMISS 耗时: 18 seconds,,,,,,,
+VMISS 耗时: 13 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-193.227.99.124,443,true,LAX,North America,Los Angeles,174,8.43
-66.81.247.229,443,true,LAX,North America,Los Angeles,172,8.40
-38.47.114.80,34237,true,LAX,North America,Los Angeles,165,7.92
-156.225.72.95,443,true,LAX,North America,Los Angeles,174,7.84
+185.174.138.85,443,true,LAX,North America,Los Angeles,172,8.68
+31.12.75.148,443,true,LAX,North America,Los Angeles,172,8.42
+94.140.0.186,443,true,LAX,North America,Los Angeles,172,8.37
+209.209.59.112,14050,true,LAX,North America,Los Angeles,164,7.95
+汇聚 耗时: 40 seconds,,,,,,,
+﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
+8.219.113.232,8443,true,SIN,Asia Pacific,Singapore,74,10.42
+8.219.40.37,2087,true,SIN,Asia Pacific,Singapore,64,10.32
+129.150.41.174,16462,true,SIN,Asia Pacific,Singapore,53,10.15
+185.81.28.178,31700,true,SIN,Asia Pacific,Singapore,85,9.44
 汇聚 耗时: 38 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-8.219.42.72,8443,true,SIN,Asia Pacific,Singapore,62,8.49
-129.150.58.86,57621,true,SIN,Asia Pacific,Singapore,127,7.23
-138.2.68.200,57866,true,SIN,Asia Pacific,Singapore,143,7.09
-138.2.69.236,23334,true,SIN,Asia Pacific,Singapore,127,4.86
-汇聚 耗时: 65 seconds,,,,,,,
+59.3.3.161,443,true,ICN,Asia Pacific,Seoul,100,8.92
+120.143.164.87,30005,true,ICN,Asia Pacific,Seoul,125,7.40
+220.127.78.184,39792,true,ICN,Asia Pacific,Seoul,114,6.69
+61.247.83.116,39308,true,ICN,Asia Pacific,Seoul,122,5.59
+汇聚 耗时: 38 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-116.47.10.236,27335,true,ICN,Asia Pacific,Seoul,61,9.63
-146.56.130.130,14850,true,ICN,Asia Pacific,Seoul,64,9.50
-61.32.133.149,23023,true,ICN,Asia Pacific,Seoul,89,8.09
-118.33.178.164,14430,true,ICN,Asia Pacific,Seoul,206,4.50
-汇聚 耗时: 60 seconds,,,,,,,
-﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-64.110.74.46,45929,true,NRT,Asia Pacific,Tokyo,64,9.43
-146.56.151.254,32900,true,NRT,Asia Pacific,Tokyo,85,9.27
-146.56.171.182,11659,true,NRT,Asia Pacific,Tokyo,206,9.22
-140.238.8.194,15800,true,NRT,Asia Pacific,Tokyo,78,6.04
-汇聚 耗时: 51 seconds,,,,,,,
-耗时: 329 seconds,,,,,,,
+54.249.135.43,443,true,NRT,Asia Pacific,Tokyo,69,9.76
+45.159.48.224,443,true,NRT,Asia Pacific,Tokyo,110,9.41
+176.119.149.241,3000,true,NRT,Asia Pacific,Tokyo,89,9.31
+140.238.58.181,2053,true,NRT,Asia Pacific,Tokyo,91,4.56
+汇聚 耗时: 42 seconds,,,,,,,
+耗时: 248 seconds,,,,,,,
