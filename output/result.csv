@@ -1,45 +1,45 @@
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-8.210.245.224,8443,true,HKG,Asia Pacific,Hong Kong,32,10.79
-47.242.171.94,2083,true,HKG,Asia Pacific,Hong Kong,40,10.75
-8.210.174.156,2083,true,HKG,Asia Pacific,Hong Kong,32,10.70
-47.242.234.127,8443,true,HKG,Asia Pacific,Hong Kong,24,9.70
-47.243.203.119,2053,true,HKG,Asia Pacific,Hong Kong,45,9.27
+47.76.49.246,2096,true,HKG,Asia Pacific,Hong Kong,32,10.66
+47.242.17.250,2087,true,HKG,Asia Pacific,Hong Kong,30,10.58
+47.243.120.239,8443,true,HKG,Asia Pacific,Hong Kong,43,10.47
+47.76.94.15,8443,true,HKG,Asia Pacific,Hong Kong,29,6.18
+8.218.53.110,8443,true,HKG,Asia Pacific,Hong Kong,34,5.07
 阿里 耗时: 34 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-45.143.234.199,25811,true,NRT,Asia Pacific,Tokyo,71,9.88
-45.14.64.158,20445,true,NRT,Asia Pacific,Tokyo,68,9.81
-193.32.150.96,37742,true,NRT,Asia Pacific,Tokyo,72,9.78
-xTom 耗时: 16 seconds,,,,,,,
+149.62.44.233,41165,true,NRT,Asia Pacific,Tokyo,69,9.92
+45.14.64.158,20445,true,NRT,Asia Pacific,Tokyo,69,9.81
+193.32.151.57,35509,true,NRT,Asia Pacific,Tokyo,73,9.62
+xTom 耗时: 23 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-206.237.7.18,34237,true,HKG,Asia Pacific,Hong Kong,26,10.66
-38.147.190.245,48329,true,HKG,Asia Pacific,Hong Kong,27,10.65
-206.237.2.124,21975,true,HKG,Asia Pacific,Hong Kong,26,9.56
+38.147.190.245,48329,true,HKG,Asia Pacific,Hong Kong,23,10.67
+206.237.1.223,33151,true,HKG,Asia Pacific,Hong Kong,23,10.26
+206.237.2.124,21975,true,HKG,Asia Pacific,Hong Kong,24,9.78
 XNNET 耗时: 17 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-38.207.161.202,443,true,HKG,Asia Pacific,Hong Kong,23,10.71
-VMISS 耗时: 17 seconds,,,,,,,
+38.207.161.202,443,true,HKG,Asia Pacific,Hong Kong,21,10.55
+VMISS 耗时: 18 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-147.185.161.115,443,true,LAX,North America,Los Angeles,186,8.78
-185.221.160.194,443,true,LAX,North America,Los Angeles,188,8.36
-108.165.216.107,443,true,LAX,North America,Los Angeles,187,8.34
-172.82.16.99,443,true,SJC,North America,San Jose,177,7.78
-汇聚 耗时: 42 seconds,,,,,,,
+188.42.89.83,443,true,LAX,North America,Los Angeles,182,8.81
+155.46.213.254,443,true,LAX,North America,Los Angeles,183,8.80
+154.40.57.178,34237,true,LAX,North America,Los Angeles,191,7.38
+185.176.24.174,443,true,LAX,North America,Los Angeles,184,5.64
+汇聚 耗时: 46 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-8.219.107.135,2087,true,SIN,Asia Pacific,Singapore,67,10.31
-8.219.78.1,2053,true,SIN,Asia Pacific,Singapore,70,10.28
-8.219.83.71,2087,true,SIN,Asia Pacific,Singapore,69,10.26
-8.219.87.30,2053,true,SIN,Asia Pacific,Singapore,72,10.22
-汇聚 耗时: 31 seconds,,,,,,,
+8.219.0.48,2096,true,SIN,Asia Pacific,Singapore,83,10.29
+8.222.179.231,2096,true,SIN,Asia Pacific,Singapore,96,10.12
+8.222.180.86,2096,true,SIN,Asia Pacific,Singapore,95,10.09
+8.219.111.175,8443,true,SIN,Asia Pacific,Singapore,94,9.94
+汇聚 耗时: 30 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-220.127.78.184,39792,true,ICN,Asia Pacific,Seoul,117,7.44
-210.126.38.13,33452,true,ICN,Asia Pacific,Seoul,124,6.81
-59.13.75.15,24799,true,ICN,Asia Pacific,Seoul,142,6.33
-211.55.202.96,33890,true,ICN,Asia Pacific,Seoul,123,6.22
+180.68.62.68,10255,true,ICN,Asia Pacific,Seoul,110,7.57
+218.151.92.75,23880,true,ICN,Asia Pacific,Seoul,120,6.77
+118.39.233.126,16800,true,ICN,Asia Pacific,Seoul,137,6.21
+118.33.178.164,14430,true,ICN,Asia Pacific,Seoul,115,5.69
 汇聚 耗时: 33 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-37.123.197.170,30803,true,NRT,Asia Pacific,Tokyo,72,9.88
-38.47.98.126,99,true,KIX,Asia Pacific,Osaka,193,9.63
-58.124.143.215,31839,true,KIX,Asia Pacific,Osaka,148,6.96
-218.50.42.18,22631,true,NRT,Asia Pacific,Tokyo,138,6.79
-汇聚 耗时: 30 seconds,,,,,,,
-耗时: 220 seconds,,,,,,,
+193.123.239.18,49248,true,NRT,Asia Pacific,Tokyo,79,9.68
+13.208.164.103,443,true,KIX,Asia Pacific,Osaka,79,9.43
+103.150.8.172,4433,true,NRT,Asia Pacific,Tokyo,100,9.14
+118.33.178.164,14430,true,NRT,Asia Pacific,Tokyo,150,7.56
+汇聚 耗时: 56 seconds,,,,,,,
+耗时: 258 seconds,,,,,,,
