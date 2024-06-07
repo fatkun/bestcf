@@ -31,7 +31,7 @@ speedtest() {
   s_start_time=$(date +%s)
   # st 测速线程
   echo "START ------> "$info
-  cfiptest -f $file -s -mins $min_speed -maxdc 300 -maxsc $testc -iata=$iata -st 1 -o $TMP_RESULT_PATH $args
+  cfiptest -f $file -s -mins $min_speed -maxdc 500 -maxsc $testc -iata=$iata -st 1 -o $TMP_RESULT_PATH $args
 
   cat $TMP_RESULT_PATH >> $RESULT_PATH
 
