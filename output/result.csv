@@ -1,17 +1,17 @@
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-43.239.249.80,60001,true,NRT,Asia Pacific,Tokyo,77,9.61
-43.239.249.177,26213,true,NRT,Asia Pacific,Tokyo,76,9.51
-45.142.166.55,22388,true,NRT,Asia Pacific,Tokyo,79,8.42
-xTom 耗时: 23 seconds,,,,,,,
+103.201.130.137,23363,true,NRT,Asia Pacific,Tokyo,76,9.35
+103.201.130.137,55556,true,NRT,Asia Pacific,Tokyo,72,9.25
+43.239.249.80,60001,true,NRT,Asia Pacific,Tokyo,74,8.87
+xTom 耗时: 37 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-206.237.7.18,34237,true,HKG,Asia Pacific,Hong Kong,28,10.73
-206.237.0.221,35690,true,HKG,Asia Pacific,Hong Kong,28,10.71
-206.237.1.223,33151,true,HKG,Asia Pacific,Hong Kong,28,10.67
-XNNET 耗时: 19 seconds,,,,,,,
+206.237.1.31,1233,true,HKG,Asia Pacific,Hong Kong,26,10.41
+206.237.2.124,21975,true,HKG,Asia Pacific,Hong Kong,27,9.40
+38.147.191.221,15214,true,HKG,Asia Pacific,Hong Kong,25,9.32
+XNNET 耗时: 21 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-8.219.107.135,2053,true,SIN,Asia Pacific,Singapore,56,10.38
-168.138.166.213,10500,true,SIN,Asia Pacific,Singapore,56,10.32
-138.2.104.102,443,true,SIN,Asia Pacific,Singapore,61,10.12
-152.69.219.31,41746,true,SIN,Asia Pacific,Singapore,55,10.10
-汇聚 耗时: 34 seconds,,,,,,,
-耗时: 76 seconds,,,,,,,
+8.222.183.242,2083,true,SIN,Asia Pacific,Singapore,79,10.11
+138.2.85.8,22604,true,SIN,Asia Pacific,Singapore,61,9.74
+38.181.70.15,443,true,SIN,Asia Pacific,Singapore,56,9.55
+138.2.111.140,10010,true,SIN,Asia Pacific,Singapore,60,5.65
+汇聚 耗时: 36 seconds,,,,,,,
+耗时: 95 seconds,,,,,,,
