@@ -1,12 +1,12 @@
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-45.143.234.199,25811,true,NRT,Asia Pacific,Tokyo,76,9.53
-193.32.151.57,35509,true,NRT,Asia Pacific,Tokyo,82,9.43
-xTom 耗时: 76 seconds,,,,,,,
+193.32.151.57,35509,true,NRT,Asia Pacific,Tokyo,73,9.06
+45.143.234.199,25811,true,NRT,Asia Pacific,Tokyo,75,8.94
+xTom 耗时: 75 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-206.237.0.180,8081,true,HKG,Asia Pacific,Hong Kong,30,10.45
-206.237.1.59,11563,true,HKG,Asia Pacific,Hong Kong,29,10.38
-38.147.187.174,20075,true,HKG,Asia Pacific,Hong Kong,30,9.97
-XNNET 耗时: 22 seconds,,,,,,,
+206.237.2.172,2902,true,HKG,Asia Pacific,Hong Kong,32,9.96
+38.147.187.174,20075,true,HKG,Asia Pacific,Hong Kong,33,9.84
+206.237.2.124,21975,true,HKG,Asia Pacific,Hong Kong,35,9.23
+XNNET 耗时: 18 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-汇聚 耗时: 49 seconds,,,,,,,
-耗时: 147 seconds,,,,,,,
+汇聚 耗时: 57 seconds,,,,,,,
+耗时: 150 seconds,,,,,,,
