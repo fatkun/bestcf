@@ -97,8 +97,8 @@ speedtest '../new/932.txt' "XNNET" 3 3 4 """ -dtt 1 "
 speedtest '/root/bin/gcf/ip.txt' "汇聚" 4 3 4 "SIN"
 #speedtest '/root/bin/gcf/ip.txt' "汇聚" 4 3 4 "HKG" 
 #speedtest '/root/bin/gcf/ip.txt' "汇聚" 4 3 4 "ICN" #KR
-#speedtest '/root/bin/gcf/ip.txt' "汇聚" 4 3 4 "NRT,FUK,KIX" # JP
-#speedtest '../input/AS41378.txt' "Kirino" 3 3 4 ""
+speedtest '/root/bin/gcf/ip.txt' "汇聚" 4 3 4 "NRT,FUK,KIX" # JP
+speedtest '../input/AS41378.txt' "Kirino" 3 3 4 ""
 
 #speedtest './input2/ipv6.txt' "IPV6" 3 2 2
 final_release
