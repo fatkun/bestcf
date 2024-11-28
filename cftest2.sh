@@ -77,7 +77,8 @@ final_release() {
 }
 
 upload() {
-	git add *.txt *.csv
+	git add *.txt 
+	git add */*.csv
 	git commit -m 'update'
 	git push
 	date
