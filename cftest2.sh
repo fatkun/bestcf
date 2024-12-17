@@ -55,6 +55,7 @@ speedtest() {
     mapping["LAX"] = "US";
     mapping["NYC"] = "US";
     mapping["SJC"] = "US";
+    mapping["SEA"] = "US";
     mapping["SIN"] = "SG";
     mapping["LHR"] = "BG";
     mapping["TPE"] = "TW";
@@ -94,7 +95,7 @@ speedtest '../new/3258.txt' "xTom" 3 3 4 """ -dtt 1 "
 speedtest '../new/932.txt' "XNNET" 3 3 4 """ -dtt 1 "
 #speedtest '../input/as967.txt' "VMISS" 3 3 4 """ -dtt 1 "
 #speedtest '/root/bin/gcf/ip.txt' "汇聚" 4 3 4 "TPE,KHH" # TW
-speedtest '/root/bin/gcf/ip.txt' "汇聚" 5 5 4 "SJC,NYC,LAX" # US
+speedtest '/root/bin/gcf/ip.txt' "汇聚" 5 5 4 "SJC,NYC,LAX,SEA" # US
 speedtest '/root/bin/gcf/ip.txt' "汇聚" 5 5 4 "SIN"
 #speedtest '/root/bin/gcf/ip.txt' "汇聚" 4 3 4 "HKG" 
 #speedtest '/root/bin/gcf/ip.txt' "汇聚" 4 3 4 "ICN" #KR
