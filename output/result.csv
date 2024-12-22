@@ -1,23 +1,29 @@
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-xTom 耗时: 10 seconds,,,,,,,
+45.159.48.42,34237,true,NRT,Asia Pacific,Tokyo,74,9.81
+xTom 耗时: 13 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-91.208.73.33,2087,true,HKG,Asia Pacific,Hong Kong,24,9.97
-206.237.2.124,21975,true,HKG,Asia Pacific,Hong Kong,26,7.55
-XNNET 耗时: 16 seconds,,,,,,,
+206.237.2.124,21975,true,HKG,Asia Pacific,Hong Kong,174,9.76
+38.147.187.174,20075,true,HKG,Asia Pacific,Hong Kong,24,7.76
+XNNET 耗时: 13 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-45.140.88.214,4443,true,LAX,North America,Los Angeles,161,8.02
-38.47.117.77,443,true,LAX,North America,Los Angeles,163,7.96
-38.49.59.64,53324,true,LAX,North America,Los Angeles,166,7.78
-173.242.123.189,51042,true,LAX,North America,Los Angeles,202,7.38
-64.64.228.98,2053,true,LAX,North America,Los Angeles,197,7.22
-汇聚 耗时: 591 seconds,,,,,,,
+69.84.182.127,443,true,SEA,North America,Seattle,155,8.79
+69.84.182.176,443,true,SEA,North America,Seattle,155,8.77
+198.62.62.1,443,true,SEA,North America,Seattle,160,8.77
+198.62.62.208,443,true,SEA,North America,Seattle,156,8.74
+198.62.62.131,443,true,SEA,North America,Seattle,157,8.73
+汇聚 耗时: 45 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-138.2.95.33,17465,true,SIN,Asia Pacific,Singapore,56,8.48
-152.69.219.32,443,true,SIN,Asia Pacific,Singapore,207,7.83
-168.138.178.6,19990,true,SIN,Asia Pacific,Singapore,67,5.07
-汇聚 耗时: 106 seconds,,,,,,,
+51.79.254.182,443,true,SIN,Asia Pacific,Singapore,54,10.09
+13.228.142.218,443,true,SIN,Asia Pacific,Singapore,57,9.96
+152.69.219.32,443,true,SIN,Asia Pacific,Singapore,61,9.79
+103.14.92.88,443,true,SIN,Asia Pacific,Singapore,80,8.83
+43.156.116.194,443,true,SIN,Asia Pacific,Singapore,98,6.52
+汇聚 耗时: 54 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-154.19.186.124,16873,true,NRT,Asia Pacific,Tokyo,74,5.88
-20.78.8.44,31593,true,NRT,Asia Pacific,Tokyo,105,5.40
-汇聚 耗时: 102 seconds,,,,,,,
-耗时: 825 seconds,,,,,,,
+180.17.144.27,10333,true,KIX,Asia Pacific,Osaka,89,9.80
+140.238.60.225,443,true,NRT,Asia Pacific,Tokyo,74,9.34
+20.78.8.44,31593,true,NRT,Asia Pacific,Tokyo,105,9.23
+103.20.199.118,12999,true,NRT,Asia Pacific,Tokyo,68,8.78
+212.50.246.29,55567,true,KIX,Asia Pacific,Osaka,108,8.40
+汇聚 耗时: 51 seconds,,,,,,,
+耗时: 176 seconds,,,,,,,
