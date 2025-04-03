@@ -1,30 +1,18 @@
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-45.142.166.55,22388,true,NRT,Asia Pacific,Tokyo,79,7.42
+45.142.166.55,22388,true,NRT,Asia Pacific,Tokyo,89,5.11
 xTom 耗时: 8 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-206.237.1.59,11563,true,HKG,Asia Pacific,Hong Kong,46,9.37
-149.104.22.115,36868,true,HKG,Asia Pacific,Hong Kong,52,8.66
-206.237.2.124,21975,true,HKG,Asia Pacific,Hong Kong,51,5.83
-XNNET 耗时: 17 seconds,,,,,,,
+149.104.22.115,36868,true,HKG,Asia Pacific,Hong Kong,57,5.86
+XNNET 耗时: 19 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-198.62.62.151,443,true,SEA,North America,Seattle,169,8.48
-198.62.62.148,443,true,SEA,North America,Seattle,172,8.38
-69.84.182.138,443,true,SEA,North America,Seattle,163,7.78
-198.62.62.161,443,true,SEA,North America,Seattle,163,6.85
-198.62.62.78,443,true,SEA,North America,Seattle,169,6.34
-汇聚 耗时: 51 seconds,,,,,,,
+104.194.84.219,25411,true,LAX,North America,Los Angeles,171,7.10
+154.211.8.155,443,true,LAX,North America,Los Angeles,191,4.87
+69.84.182.86,443,true,SEA,North America,Seattle,173,4.82
+198.62.62.231,443,true,SEA,North America,Seattle,195,4.34
+汇聚 耗时: 1514 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-51.79.254.182,443,true,SIN,Asia Pacific,Singapore,59,9.69
-168.138.170.211,53702,true,SIN,Asia Pacific,Singapore,61,9.35
-8.222.159.134,12314,true,SIN,Asia Pacific,Singapore,1099,6.05
-8.219.1.169,443,true,SIN,Asia Pacific,Singapore,60,4.09
-8.222.178.214,6666,true,SIN,Asia Pacific,Singapore,64,4.05
-汇聚 耗时: 56 seconds,,,,,,,
+168.138.177.109,443,true,SIN,Asia Pacific,Singapore,65,4.55
+汇聚 耗时: 67 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-131.186.33.175,443,true,NRT,Asia Pacific,Tokyo,78,8.87
-150.230.204.21,10243,true,NRT,Asia Pacific,Tokyo,187,7.61
-217.142.243.226,443,true,KIX,Asia Pacific,Osaka,210,5.23
-64.110.104.30,443,true,KIX,Asia Pacific,Osaka,418,5.04
-141.147.147.180,443,true,KIX,Asia Pacific,Osaka,122,4.56
-汇聚 耗时: 70 seconds,,,,,,,
-耗时: 202 seconds,,,,,,,
+汇聚 耗时: 45 seconds,,,,,,,
+耗时: 1653 seconds,,,,,,,
