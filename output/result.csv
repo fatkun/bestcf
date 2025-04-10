@@ -1,22 +1,26 @@
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-45.142.166.55,22388,true,NRT,Asia Pacific,Tokyo,73,5.93
-xTom 耗时: 8 seconds,,,,,,,
+xTom 耗时: 9 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-206.237.2.124,21975,true,HKG,Asia Pacific,Hong Kong,1089,5.50
-XNNET 耗时: 14 seconds,,,,,,,
+XNNET 耗时: 2 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-205.233.181.218,443,true,LAX,North America,Los Angeles,183,5.46
-198.62.62.26,443,true,SEA,North America,Seattle,176,4.79
-103.169.142.240,443,true,LAX,North America,Los Angeles,193,4.34
-92.243.75.49,2087,true,LAX,North America,Los Angeles,174,4.20
-198.62.62.58,443,true,SEA,North America,Seattle,169,4.04
-汇聚 耗时: 138 seconds,,,,,,,
+69.84.182.160,443,true,SEA,North America,Seattle,159,8.54
+188.42.89.194,443,true,LAX,North America,Los Angeles,175,8.37
+154.83.2.88,443,true,LAX,North America,Los Angeles,174,8.29
+205.233.181.97,443,true,LAX,North America,Los Angeles,167,8.25
+198.62.62.73,443,true,SEA,North America,Seattle,163,6.80
+汇聚 耗时: 142 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-138.2.95.33,17465,true,SIN,Asia Pacific,Singapore,204,8.37
-138.2.107.107,443,true,SIN,Asia Pacific,Singapore,67,8.12
-129.150.32.171,6443,true,SIN,Asia Pacific,Singapore,60,7.81
-汇聚 耗时: 75 seconds,,,,,,,
+129.150.32.171,6443,true,SIN,Asia Pacific,Singapore,62,9.99
+168.138.184.172,443,true,SIN,Asia Pacific,Singapore,62,9.99
+8.222.159.134,12314,true,SIN,Asia Pacific,Singapore,61,9.64
+51.79.254.182,443,true,SIN,Asia Pacific,Singapore,60,9.63
+168.138.170.211,53702,true,SIN,Asia Pacific,Singapore,211,6.22
+汇聚 耗时: 65 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-23.106.143.190,39027,true,KIX,Asia Pacific,Osaka,110,5.60
-汇聚 耗时: 51 seconds,,,,,,,
-耗时: 286 seconds,,,,,,,
+23.106.143.190,39027,true,KIX,Asia Pacific,Osaka,118,8.22
+64.110.101.125,443,true,KIX,Asia Pacific,Osaka,83,7.11
+141.147.147.180,443,true,KIX,Asia Pacific,Osaka,193,5.57
+64.110.104.30,443,true,KIX,Asia Pacific,Osaka,150,5.48
+150.230.7.216,443,true,KIX,Asia Pacific,Osaka,88,4.64
+汇聚 耗时: 56 seconds,,,,,,,
+耗时: 274 seconds,,,,,,,
