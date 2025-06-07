@@ -1,6 +1,7 @@
 #/bin/bash
 
 . ~/.bash_profile
+. ../env.sh
 
 RESULT_PATH=./output/result.csv
 TMP_RESULT_PATH=./output/result.tmp.csv
