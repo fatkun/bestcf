@@ -1,19 +1,28 @@
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-167.88.186.161,6379,true,KIX,Asia Pacific,Osaka,1094,6.80
-xTom 耗时: 11 seconds,,,,,,,
+167.88.186.161,6379,true,KIX,Asia Pacific,Osaka,68,20.66
+xTom 耗时: 5 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-206.237.1.59,11563,true,HKG,Asia Pacific,Hong Kong,50,6.65
-XNNET 耗时: 6 seconds,,,,,,,
+206.237.1.59,11563,true,HKG,Asia Pacific,Hong Kong,40,17.82
+XNNET 耗时: 3 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-199.19.110.126,17062,true,LAX,North America,Los Angeles,167,11.33
-64.64.228.98,2053,true,LAX,North America,Los Angeles,165,10.63
-64.64.232.192,14156,true,LAX,North America,Los Angeles,175,10.54
-汇聚 耗时: 1536 seconds,,,,,,,
+198.62.62.132,443,true,SEA,North America,Seattle,167,7.80
+69.84.182.101,443,true,SEA,North America,Seattle,159,6.67
+198.62.62.75,443,true,SEA,North America,Seattle,163,6.63
+69.84.182.147,443,true,SEA,North America,Seattle,151,6.51
+69.84.182.106,443,true,SEA,North America,Seattle,154,6.04
+汇聚 耗时: 36 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-138.2.95.33,17465,true,SIN,Asia Pacific,Singapore,67,7.47
-213.35.100.31,47112,true,SIN,Asia Pacific,Singapore,1064,5.33
-168.138.177.109,443,true,SIN,Asia Pacific,Singapore,55,4.62
-汇聚 耗时: 59 seconds,,,,,,,
+129.150.32.171,6443,true,SIN,Asia Pacific,Singapore,63,23.87
+168.138.170.211,53702,true,SIN,Asia Pacific,Singapore,50,19.32
+138.2.77.179,30018,true,SIN,Asia Pacific,Singapore,63,15.89
+138.2.107.107,443,true,SIN,Asia Pacific,Singapore,59,15.68
+3.1.116.161,2053,true,SIN,Asia Pacific,Singapore,61,6.37
+汇聚 耗时: 43 seconds,,,,,,,
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟(毫秒),下载速度(MB/s)
-汇聚 耗时: 680 seconds,,,,,,,
-耗时: 2292 seconds,,,,,,,
+162.159.153.188,443,true,NRT,Asia Pacific,Tokyo,64,16.14
+162.159.152.238,443,true,NRT,Asia Pacific,Tokyo,69,16.01
+162.159.153.247,443,true,NRT,Asia Pacific,Tokyo,65,15.65
+162.159.152.240,443,true,NRT,Asia Pacific,Tokyo,67,15.16
+162.159.152.76,443,true,NRT,Asia Pacific,Tokyo,65,13.43
+汇聚 耗时: 24 seconds,,,,,,,
+耗时: 111 seconds,,,,,,,
