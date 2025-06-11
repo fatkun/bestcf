@@ -3,10 +3,11 @@
 . ~/.bash_profile
 . ../env.sh
 
-RESULT_PATH=./output/result.csv
-TMP_RESULT_PATH=./output/result.tmp.csv
-TMP_PATH=./output/best.tmp.txt
-FINAL_PATH=./output/best.txt
+OUT_DIR=./gist
+RESULT_PATH=$OUT_DIR/result.csv
+TMP_RESULT_PATH=$OUT_DIR/result.tmp.csv
+TMP_PATH=$OUT_DIR/best.tmp.txt
+FINAL_PATH=$OUT_DIR/best.txt
 MAX_ITEM=5
 
 init() {
@@ -79,8 +80,9 @@ final_release() {
 }
 
 upload() {
+        cd $OUT_DIR
 	git add *.txt 
-	git add */*.csv
+	git add *.csv
 	git commit -m 'update'
 	git push
 	date
